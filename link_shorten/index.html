@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link Shortener</title>
+</head>
+<style>
+    body {
+      background-image: url('bg.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+  background-size: cover;
+    }
+    </style>
+<body>
+
+    <center><br><br><br>
+    <h1><font size="10" color="white" >Link Shortener</h1></font>
+    <img src="cc.png" alt="coders cave" height="70" width="110">
+    <form id="shorten-form"><font size="6" color="white">    
+     <label for="original-url">Enter the URL to shorten:</label>
+        <input size="20px" type="url" id="original-url" required>
+        <button size ="20px" type="submit">Shorten</button>
+    </form>
+    <p>Shortened URL: <span id="shortened-url"></span></p>
+
+    <script src="script.js"></script></center>
+</body>
+</html>
